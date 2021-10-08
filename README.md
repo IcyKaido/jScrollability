@@ -2,6 +2,8 @@
 
 This jQuery plugin helps you build single-scroll pages with complex scroll-based animations a la the NYTimes Snowfall feature. As the user scrolls, this plugin will animate the position of items based on the scroll position. To use it, you select various page elements, set the boundary points for their behavior, and then define a functor to compute the behavior. Animations can occur continuously with progress determined by the scroll depth between two vertical points on the page so that animations occur based on the scroll rate of the user, or animations can be triggered by the the scroll depth passing a vertical point and then animating only once over a set duration.
 
+## [Live Demo](https://adfero.github.io/jScrollability/)
+
 ## How To Use
 
 ### Option A: Single Behavior
